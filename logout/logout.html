@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Logout - Terminal-like</title>
+  <link rel="stylesheet" type="text/css" href="/logout/stlyes.css">
+</head>
+<body>
+  <div class="terminal">
+    <div class="terminal-header">
+      Logout
+    </div>
+    <div class="terminal-body" id="terminalBody">
+      <p>You have been logged out.</p>
+      <p>Thank you for using our service!</p>
+      <p>Redirecting to homepage...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // Redirect to homepage after a delay (example: 3 seconds)
+    setTimeout(function() {
+      window.location.href = '/index.html'; // Ganti dengan URL homepage yang sesuai
+    }, 3000);
+  </script>
+</body>
+</html>

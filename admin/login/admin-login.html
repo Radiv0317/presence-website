@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Admin - Terminal-like</title>
+    <link rel="stylesheet" type="text/css" href="/admin/login/styles.css">
+</head>
+<body>
+    <div class="terminal">
+        <h2>Login Admin</h2>
+        <form id="adminLoginForm">
+            <label for="adminUsername">Admin Username:</label>
+            <input type="text" id="adminUsername" name="adminUsername" required><br><br>
+            <label for="adminPassword">Admin Password:</label>
+            <input type="password" id="adminPassword" name="adminPassword" required><br><br>
+            <input type="submit" value="Login">
+        </form>
+        <p id="adminLoginStatus"></p>
+        <button id="backToLogin">Back to Login</button>
+    </div>
+
+    <script src="/admin/login/script.js"></script>
+</body>
+</html>

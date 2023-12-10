@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="terminal">
+        <h2>Login</h2>
+        <form id="loginForm">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required><br><br>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required><br><br>
+          <input type="submit" value="Login">
+        </form>
+        <p id="loginStatus"></p>
+
+        <!-- Tombol untuk Registrasi -->
+        <button id="registerLink">Register</button>
+
+        <!-- Tombol untuk Login Admin -->
+        <button id="adminLoginLink">Admin Login</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
